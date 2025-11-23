@@ -1,0 +1,12 @@
+1. create a docker image for running lonboard and duckdb 
+# requires-python = ">=3.12"
+# dependencies = [
+#     "duckdb",
+#     "lonboard",
+# ]
+# ///
+
+2. install uv as well in the docker image
+3. also check if jupyter notebook needs to installed. install it if not already installed.
+4. add docker compose to run this app, sync folders data and notebooks
+5. allow to execute any notebook using uvx juv run examples/data-filter-extension.ipynb

@@ -1,0 +1,7 @@
+duckdb
+lonboard
+jupyter
+ipykernel
+pandas
+geopandas
+pyarrow

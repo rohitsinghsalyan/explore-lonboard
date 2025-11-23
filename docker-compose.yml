@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  lonboard:
+    build: .
+    container_name: lonboard-app
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app/notebooks
+      - ./data:/app/data
+      - ./examples:/app/examples
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    command: >
+      bash -c "jupyter notebook 
+      --ip=0.0.0.0 
+      --port=8888 
+      --no-browser 
+      --allow-root 
+      --NotebookApp.token='' 
+      --NotebookApp.password=''"
+    stdin_open: true
+    tty: true
