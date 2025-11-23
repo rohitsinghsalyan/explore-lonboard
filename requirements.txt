@@ -5,3 +5,15 @@ ipykernel
 pandas
 geopandas
 pyarrow
+arro3-core
+geoarrow-rust-core
+geoarrow-rust-io>=0.4.1
+lonboard
+numpy
+obstore
+shapely
+matplotlib
+overturemaps
+palettable
+movingpandas
+stonesoup

@@ -1,6 +1,8 @@
-# Lonboard + DuckDB Exploration
+# Lonboard Exploration
 
 A containerized application for exploring geospatial data using Lonboard (interactive web maps) and DuckDB (in-process SQL database).
+
+(**note: use lonboard==0.12.1 for overture map building 3d visulisation**)
 
 ## Features
 
@@ -218,7 +220,3 @@ To add new Python packages:
 ```bash
 make build
 ```
-
-## License
-
-See LICENSE file for details.
