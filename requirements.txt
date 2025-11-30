@@ -1,5 +1,5 @@
 duckdb
-lonboard
+lonboard==0.12.1
 jupyter
 ipykernel
 pandas
@@ -17,3 +17,4 @@ overturemaps
 palettable
 movingpandas
 stonesoup
+pydeck
